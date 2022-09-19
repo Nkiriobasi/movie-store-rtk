@@ -1,0 +1,35 @@
+@import '../../utils//colors.scss';
+
+
+.card__item{
+    cursor: pointer;
+    width: 33.333333%;
+    transition: all 0.5s;
+
+    &:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+
+    .card__inner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 4rem;
+    }
+
+    .card__top{
+        margin-bottom: 0.5rem;
+    }
+
+    .card__bottom{
+        background: $secondary-color;
+
+        .card__info{
+            color: $font-primary;
+            font-size: 14px;
+            padding: 0.5rem;
+        }
+    }
+}

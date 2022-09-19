@@ -1,0 +1,22 @@
+@import '../../utils//colors.scss';
+
+
+.movie__list, .show__list{
+    margin: 20px 0;
+
+    h2{
+        color: $font-secondary;
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 1.875rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .movie__container, .show__container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
